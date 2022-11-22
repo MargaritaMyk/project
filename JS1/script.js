@@ -8,6 +8,7 @@ function start() {
     } 
 }
 start ();
+
 const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
@@ -23,6 +24,7 @@ const personalMovieDB = {
 //       d =prompt("на сколько оцените его?", '');
 // personalMovieDB.movies [a]=b;
 // personalMovieDB.movies [c]=d;
+
 function rememberMyFilms () {
     for (let i = 0; i < 2; i++) {
         const a =prompt("Один из последних просмотреных фильмов?", ''),
